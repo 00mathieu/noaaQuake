@@ -7,7 +7,7 @@
 eq_location_clean(raw_data)
 }
 \arguments{
-\item{raw_data}{}
+\item{raw_data}{a DT}
 }
 \value{
 a DT

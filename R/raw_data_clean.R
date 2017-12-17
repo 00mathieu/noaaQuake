@@ -5,7 +5,7 @@
 #'     - Lat & Long
 #'     - Location
 #'
-#' @param raw_data_loc
+#' @param raw_data_loc a string with location of raw data file
 #'
 #' @return a DT
 #' @export
@@ -38,7 +38,7 @@ clean_raw_data <- function(
 #'
 #' function to clean up the location column
 #'
-#' @param raw_data
+#' @param raw_data a DT
 #'
 #' @return a DT
 #' @export

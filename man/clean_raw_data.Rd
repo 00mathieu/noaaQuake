@@ -8,7 +8,7 @@ clean_raw_data(raw_data_loc = system.file("extdata", "signif.txt", package =
   "noaaQuake"))
 }
 \arguments{
-\item{raw_data_loc}{}
+\item{raw_data_loc}{a string with location of raw data file}
 }
 \value{
 a DT
