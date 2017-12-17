@@ -19,7 +19,7 @@ The NOAA dataset is available here: https://www.ngdc.noaa.gov/nndc/struts/form?t
 
 You can install the noaaQuakes package by running:
 
-```{r}
+```{r eval=F}
 library(devtools)
 devtools::install_github("00mathieu/noaaQuake")
 ```
