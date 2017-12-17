@@ -11,7 +11,18 @@ vignette: >
 
 # noaaQuake
 
-The goal of noaaQuake is to be a package that contains some functions that helps clean, manipulate and visulaise the earthquakes data
+The goal of noaaQuake is to be a package that contains some functions that helps clean, manipulate and visualise the earthquakes data.
+
+The NOAA dataset is available here: https://www.ngdc.noaa.gov/nndc/struts/form?t=101650&s=1&d=1
+
+# Installation
+
+You can install the noaaQuakes package by running:
+
+```{r}
+library(devtools)
+devtools::install_github("00mathieu/noaaQuake")
+```
 
 ## Examples
 
@@ -45,6 +56,5 @@ ggplot(db[COUNTRY %in%c("CHINA","GREECE")],
 ### Example 3: leaflet plot visualising location of quake
 
 ```{r}
-
 eq_map(db[COUNTRY %in%c("GREECE") & DATE>"2000-01-01"], annot_col = "popup_text")
 ```
