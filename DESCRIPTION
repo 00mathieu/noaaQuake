@@ -12,7 +12,8 @@ Imports:
  roxygen2,
  data.table,
  dplyr,
- ggplot2
+ ggplot2,
+ leaflet
 RoxygenNote: 6.0.1
 Suggests: testthat,
     knitr,
