@@ -7,6 +7,7 @@
 #' @export
 #'
 #' @import leaflet
+#' @import data.table
 #'
 #' @examples \dontrun{
 #' eq_map(db[COUNTRY %in%c("GREECE") & DATE>"2000-01-01"],

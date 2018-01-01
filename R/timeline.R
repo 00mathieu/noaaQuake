@@ -87,6 +87,9 @@ geom_timeline_proto <- ggplot2::ggproto(
 #' @param geom default is timeline
 #' @param n_max max number of annotations to make
 #'
+#' @import ggplot2
+#' @importFrom ggplot2 layer
+#'
 #' @return a stat
 #' @export
 #'
@@ -145,6 +148,7 @@ StatTimeline <- ggplot2::ggproto(
 #' @return a geom
 #' @export
 #'
+#' @import ggplot2
 #' @importFrom ggplot2 layer
 #'
 #' @examples \dontrun{
