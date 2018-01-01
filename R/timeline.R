@@ -139,7 +139,6 @@ StatTimeline <- ggplot2::ggproto(
 #' geom to add lines and annotations to timeline plot
 #'
 #' @inheritParams ggplot2::geom_point
-#' @param geom default is timeline
 #' @param n_max max number of annotations to make
 #' @param stat timeline
 #'
