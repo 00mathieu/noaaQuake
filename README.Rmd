@@ -15,6 +15,11 @@ knitr::opts_chunk$set(
 library(noaaQuake)
 library(ggplot2)
 ```
+
+# Travis Badge:
+
+[![Build Status](https://travis-ci.org/00mathieu/noaaQuake.svg?branch=master)](https://travis-ci.org/00mathieu/noaaQuake)
+
 # noaaQuake
 
 The goal of noaaQuake is to be a package that contains some functions that helps clean, manipulate and visulaise the earthquakes data
